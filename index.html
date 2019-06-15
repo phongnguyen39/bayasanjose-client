@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type = "text/css" href="./static/styles.css"
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Bay A Cleaning Services</title>
+</head>
+<style>
+    
+</style>
+
+<div class="background_image"></div>
+
+<body>
+        <div class="header_block_fixed">      
+            <div class="navbar-header">
+                    <h1>Bay A Cleaning Services</h1>
+                        <ul>
+                                <li type='hidden'><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                                <li><a href="#">Schedule an Appointment</a></li>
+                                <!-- <a href="#">Claims Form</a> -->
+                                <li><a href="#">Business Partners</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Promotions</a></li>
+                        </ul>
+            </div>
+        </div>
+
+        <div class="body_content">
+            <div id="services" class="card">
+                <h3>Residential and Commerical Cleaning. We have been providing the best
+                            in cleaning services for over ten years.</h3>
+                <h3>
+                <p>Services</p>
+                <ul>
+                    <li>Residential</li>
+                        <ul>
+                            <li>Regular Cleaning</li>
+                            <li>Deep Cleaning</li>
+                            <li>Home Staging</li>
+                            <li>Seasonal</li>
+                        </ul>
+                    <li>Commercial</li>
+                </ul>
+            </h3>
+            </div>
+
+            <div id="contact" class="card">
+                <h3>Business Hours: Mon - Fri, 8am-5pm</h3>
+                <h3>Email:  <a href="mailto:cleaningservices@bayasanjose.com">cleaningservices@bayasanjose.com</a></h3>
+                <h3><img class="icons" src="facebook.png"> Facebook  | <a href="https://www.facebook.com/bayasanjose/">Bay A Cleaning Services</a></h3>
+            </div>
+            <p>Serving clients in the South Bay.</p>
+            <div id="map"></div>
+            
+            <iframe width="500px" height="500px" src="https://forms.gle/pvHU7Sgjk9rmdcWPA"></iframe>
+        </div>
+</body>
+
+
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 37.0057816, lng: -121.5682751 },
+            zoom: 8
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6LiJWVhYo5QCjlcKDZMEJHjmIZG8hVE8&callback=initMap"
+    async defer></script>
+
+</html>
