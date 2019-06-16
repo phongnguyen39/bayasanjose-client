@@ -11,9 +11,7 @@ body {
     z-index: 0;
 }
 
-.container {
-    padding: 1%;
-}
+
 
 .background_image {
     position: fixed;
@@ -25,6 +23,7 @@ body {
     height: 100vh;
     z-index: -5;
 }
+
 
 #map {
     margin-left: 50%;
@@ -48,7 +47,6 @@ body {
 }
 .navbar{
     color: white;
-    box-shadow: 1px 1px gray;
     width: 100%;
     /* height: 10vh; */
 }
@@ -64,9 +62,24 @@ a{
 }
 
 .container {
+    display: grid;
     background-image: url("https://images.pexels.com/photos/709767/pexels-photo-709767.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    margin-top: 25%;
+    margin: 0% 0% 25% 0%;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    padding: 1%;
+    grid-column-gap: 1%;
+    grid-row-gap: 100%;
 }
+
+.boxes{
+    
+    border: 1px solid red;
+    
+}
+
+
 ul, li{
     font-size: large;
     list-style: none;
@@ -79,10 +92,7 @@ ul, li{
     background-image: url("bathroom.jpg");
     min-height: 30%;
 }
-.card{
-    min-height: 70%;
-    margin: 5% 0% 100% 0%;
-}
+
 
 #iframe{
     display: block;
