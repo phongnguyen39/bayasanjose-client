@@ -42,15 +42,17 @@ body {
 }
 
 .header_block_fixed {
-    /* position: fixed; */
+    position: fixed;
     margin-bottom: 1%;
-    /* background-color: slategray; */
-    width: 100%;
+    background-color: slategray;
+    width: 100vw;
+    z-index: 1;
 }
 .navbar{
+    color: white;
     box-shadow: 1px 1px gray;
-    width: 20vw;
-    height: 10vh;
+    width: 100vw;
+    /* height: 10vh; */
 }
 .navbar:hover{
     box-shadow: 1px 1px gray;
@@ -58,9 +60,13 @@ body {
     height: 20vh;
 }
 
+a{
+    color: white;
+}
+
 .body_content {
     background-image: url("https://images.pexels.com/photos/709767/pexels-photo-709767.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    margin-top: 10%;
+    margin-top: 25%;
 }
 ul, li{
     font-size: large;
