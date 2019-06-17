@@ -56,8 +56,10 @@ body {
     height: 100vh;
     border: 1px solid red;
     padding: 15% 0 5% 0;
-    grid-column-gap: 1%;
-    grid-row-gap: 100%;
+    /* grid-column-gap: 1%;
+    grid-row-gap: 100%; */
+    background: gray;
+    /* grid=template-columns: auto auto auto; */
 }
 
 
@@ -72,9 +74,26 @@ a, h1{
     color: white;
 }
 
-.boxes{    
+.boxes{
+    display: block;    
     border: 1px solid red;
     padding: 0% 2% 0% 2%;
+    background: gray;
+    height: 100%;
+}
+
+.left-box{
+    background: red;
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.right-box{
+    display: inline-block;
+    width: 50%;
+    border: 1px solid blue;
 }
 
 
