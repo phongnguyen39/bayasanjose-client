@@ -69,6 +69,7 @@ a, h1{
     height: 100%;
     grid-template-columns: 50% 50%;
     grid-column-gap: 0;
+    /* margin-bottom: 100%; */
 }
 
 .box-header{
@@ -100,6 +101,12 @@ ul, li{
     height: 4%;
     width: 4%;
 }
+
+.lg-icons{
+    height: 100%;
+    width: 100%;
+}
+
 #services{
     background-image: url("bathroom.jpg");
     min-height: 30%;
@@ -110,16 +117,4 @@ ul, li{
     display: block;
     width: 100wh;
     height: 100%;
-}
-
-.far fa-building{
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-}
-
-.fa-building{
-    display: inline-block;
-    height: 100px;
-    width: 100px;
 }
