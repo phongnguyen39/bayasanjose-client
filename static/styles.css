@@ -54,45 +54,33 @@ body {
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
-    border: 1px solid red;
-    padding: 15% 0 5% 0;
-    /* grid-column-gap: 1%;
-    grid-row-gap: 100%; */
-    background: gray;
-    /* grid=template-columns: auto auto auto; */
+    padding: 15% 0 5% 0;   
+    grid-template-columns: auto;
 }
-
-
-
-/* .navbar:hover{
-    box-shadow: 1px 1px gray;
-    width: 20vw;
-    height: 20vh;
-} */
 
 a, h1{
     color: white;
 }
 
 .boxes{
-    display: block;    
-    border: 1px solid red;
+    display: grid;    
     padding: 0% 2% 0% 2%;
-    background: gray;
     height: 100%;
+    grid-template-columns: auto auto;
 }
 
 .left-box{
     background: red;
     display: inline-block;
     width: 50%;
-    height: 100px;
+    height: 40%;
     border: 1px solid blue;
 }
 
 .right-box{
     display: inline-block;
     width: 50%;
+    height: 40%;
     border: 1px solid blue;
 }
 
