@@ -37,8 +37,8 @@ body {
 }
 
 #map {
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
     box-shadow: 1px 1px gray;
 }
 
@@ -56,10 +56,9 @@ body {
     height: 100vh;
     padding: 15% 0 5% 0;   
     grid-template-columns: auto;
-    background: gray;
 }
 
-a, h1{
+a{
     color: white;
 }
 
@@ -67,36 +66,36 @@ a, h1{
     display: grid;    
     padding: 0% 0% 0% 0%;
     height: 100%;
+    grid-template-rows: 15% 65%;
     grid-template-columns: 50% 50%;
     grid-column-gap: 0;
-    /* margin-bottom: 100%; */
+    margin-bottom: 50%;
 }
 
 .box-header{
-    grid-column: 1/span3;
+    grid-column: 1/span2;
     text-align: center;
 }
 
 .left-box{
-    background: red;
     display: inline-block;
     width: 100%;
-    height: 40%;
-    border: 1px solid blue;
+    height: 100%;
 }
 
 .right-box{
+    justify-self: center;
     display: inline-block;
     width: 100%;
-    height: 40%;
-    border: 1px solid blue;
-}
+    height: 100%;
 
+}
 
 ul, li{
     font-size: large;
     list-style: none;
 }
+
 .icons{
     height: 4%;
     width: 4%;
