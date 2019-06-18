@@ -78,8 +78,8 @@ a{
 
 .boxes{
     display: grid;
-    background: rgba(255, 255, 255, 0.418);    
-    padding: 5% 5% 5% 5%;
+    /* background: rgba(255, 255, 255, 0.418);     */
+    padding: 0% 5% 0% 5%;
     height: 50%;
     grid-template-rows: 10% 45%;
     grid-template-columns: 50% 50%;
@@ -91,7 +91,7 @@ a{
 
 
 .boxes:hover{
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.884);
     display: grid;    
     padding: 5% 5% 5% 5%;
     height: 100%;
