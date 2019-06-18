@@ -22,8 +22,8 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: -5;
-    filter: grayscale(40%);
-    -webkit-filter: brightness(50%);
+    filter: grayscale(50%);
+    -webkit-filter: brightness(70%);
 }
 
 .header_block_fixed {
@@ -67,7 +67,8 @@ body {
 
 #lg-font {
     font-size: 2.5em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'archivo';
+    color: white;
 }
 
 a{
@@ -77,7 +78,7 @@ a{
 
 .boxes{
     display: grid;
-    background: white;    
+    background: rgba(255, 255, 255, 0.418);    
     padding: 5% 5% 5% 5%;
     height: 50%;
     grid-template-rows: 10% 45%;
@@ -90,7 +91,7 @@ a{
 
 
 .boxes:hover{
-    background: white;
+    background: rgb(255, 255, 255);
     display: grid;    
     padding: 5% 5% 5% 5%;
     height: 100%;
@@ -99,7 +100,7 @@ a{
     grid-column-gap: 0;
     margin-top: 50%;
     opacity: 2;
-    
+    border: 2px 20px blur;
 }
 
 .box-header{
@@ -107,7 +108,7 @@ a{
     text-align: center;
     font-size: 3em;
     color: rgb(64, 148, 83);
-    font-weight: bold;
+    /* font-weight: bold; */
     font-stretch: expanded;
     font-family: 'archivo';
     padding: 0px;
