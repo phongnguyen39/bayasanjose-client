@@ -1,8 +1,9 @@
 * {
-    font-family: 'Montserrat', 'Open Sans', 'sans-serif';
+    font-family: 'archivo, ''Montserrat', 'Open Sans', 'sans-serif';
     margin: 0;
     padding: 0;
 }
+
 
 html,
 body {
@@ -27,7 +28,7 @@ body {
     position: fixed;
     /* margin-bottom: 1%; */
     top: 0;
-    background-color: slategray;
+    background-color: #756894;
     height: 10vh;
     width: 98vw;
     z-index: 1;
@@ -64,12 +65,14 @@ body {
 #navlinks{
     text-align: right;
     padding-right: 2%;
-}
-
-a{
     color: white;
     text-decoration: none;
 }
+
+/* a{
+    color: white;
+    text-decoration: none;
+} */
 
 .boxes{
     background: white;
@@ -86,14 +89,19 @@ a{
 .box-header{
     grid-column: 1/span2;
     text-align: center;
+    font-size: 3em;
+    color: #44Bf5F;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-family: 'archivo';
 }
 
 .left-box{
     display: inline-block;
     width: 100%;
     height: 100%;
-    border: 1px solid red;
     align-self: center;
+    justify-items: center;
 }
 
 .right-box{
@@ -101,8 +109,7 @@ a{
     display: inline-block;
     width: 100%;
     height: 100%;
-    
-    border: 1px solid red;
+
     justify-self: center;
 
 }
