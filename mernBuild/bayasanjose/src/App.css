@@ -1,0 +1,52 @@
+html,body{
+  margin: 0px;
+  padding: 0px;
+}
+
+*{
+  color: white;
+  scroll-behavior:  smooth;
+}
+
+#background_img{
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /* filter: grayscale(25%); */
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')
+}
+
+
+.container {
+    display: grid;
+    /* background-image: url("https://images.pexels.com/photos/709767/pexels-photo-709767.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    padding: 5% 0% 5% 0%;   
+    grid-template-columns: auto;
+    z-index: 2;
+    
+}
+
+#lg-font {
+  font-size: 2.5em;
+  font-family: 'archivo';
+  color: white;
+}
+
+.horizontal_nav {
+  display: inline;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav_links{
+  color: white;
+  margin: 0 auto;
+  padding: 2%;
+}
